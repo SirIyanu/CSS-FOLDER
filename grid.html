@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid</title>
+  <style>
+    .grid-container .one{
+       grid-area:  myArea1;
+    }
+    
+    .grid-container .two{
+        grid-area: myArea2;
+    }
+    .grid-container .four{
+        grid-area: myArea3;
+    }
+    .grid-container .five{
+        grid-area: myArea4;
+    }
+    .grid-container {
+      background-color: black;
+      padding: 2em;
+      display: grid;
+      grid-template-columns: 180px 90px 120px ;
+      grid-template-rows: 180px 90px 120px;
+      grid-template-areas: "myArea1 myArea1 myArea2"
+      "myArea3 myArea4 myArea4" ;
+      grid-gap: 1em;
+      width: auto;
+
+   
+ 
+    }
+
+    .grid-container .one {
+      background-color: orangered
+
+    }
+
+    .grid-container .two {
+      background-color: orange;
+    }
+
+    .grid-container .four {
+      background-color: green;
+      height: 220px;
+    }
+
+    .grid-container .five {
+      background-color: black;
+      padding: 4px;
+      display: grid;
+      grid-template-rows: max-content 1fr;
+      grid-gap: 1em;
+    }
+
+    .grid-container .five>div {
+      background-color: rgb(29, 29, 183);
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="one">
+    
+    </div>
+    <div class="two">
+    
+    </div>
+    <div class="four">
+      
+    </div>
+    <div class="five">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</body>
+
+</html>

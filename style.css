@@ -1,0 +1,124 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: hsl(0, 0%, 95%,);
+}
+
+    
+main{
+    width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: row;
+   
+}
+.first-content{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 20%;
+    height: 70%;
+    padding-bottom: 20px;
+}
+.first-content h3{
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: [Lexend Deca];
+    padding-bottom: 15px;
+
+}
+.first-content p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: [Big Shoulders Display];
+    padding-bottom: 80px;
+}
+.second-content{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em; 
+    width: 50%; 
+    width: 20%;
+    height: 70%;
+}
+.second-content h3{
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: [Lexend Deca];
+    padding-bottom: 15px;
+
+
+}
+.second-content p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: [Big Shoulders Display];
+    padding-bottom: 80px;
+
+}
+.third-content{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em; 
+    width: 50%;
+    width: 20%;
+    height: 70%;
+}
+.third-content h3{
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: [Lexend Deca];
+    padding-bottom: 15px;
+
+
+}
+.third-content p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: [Big Shoulders Display];
+    padding-bottom: 80px;
+
+}
+.block:hover{
+    cursor:pointer;
+
+}
+#button-one{
+    color:hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+    padding-top: 14px 28px;
+    border-radius: 20px 20px;
+    width: 50%;
+    height: 30px;
+    border-color: hsl(0, 0%, 95%);
+
+}
+#button-two{
+    color:hsl(0, 0%, 95%);
+    background-color:hsl(184, 100%, 22%);
+    padding-top: 14px 28px;
+    border-radius: 20px 20px; 
+    width: 50%;
+    height: 30px;
+    border-color: hsl(0, 0%, 95%);
+}
+#button-three{
+    color:hsl(0, 0%, 95%);
+    background-color:hsl(179, 100%, 13%);
+    padding-top: 28px 56px;
+    border-radius: 20px 20px;  
+    width: 50%;
+    height: 30px; 
+    border-color: hsl(0, 0%, 95%);
+}
